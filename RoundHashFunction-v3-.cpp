@@ -20,8 +20,8 @@ int main()
 	{
 		size += quan;
 		string* arr = new string[size];
-		arr[0] = hash.gethash(str, len); // text1 = hash1
-		arr[1] = hash.gethash(newsalt + texthash, len); // hash1 + text2 = hash2
+		arr[0] = hash.gethash(str, len);
+		arr[1] = hash.gethash(newsalt + texthash, len); 
 		string temphash = arr[0] + arr[1];
 		for (int i = 2; i <= quan; i++)
 		{
@@ -36,38 +36,3 @@ int main()
 
 	return 0;
 }
-
-//Enter input text, salt, hash lenght and quantity of rounds: string10 salty 10 0 - afVUvneScd
-//Enter input text, salt, hash lenght and quantity of rounds: string10 10 0 - TMNXhTLLwd
-//TMNXhTLLwdsalty - afVUvneScd
-
-//Enter input text, salt, hash lenghtand quantity of rounds : string10 salt 10 5
-//TMNXhTLLwd
-//xxwpvYQwQd
-//gDzQXQVXnU
-//G1xNcxpXPU
-//gNPOy11XQU
-//r1TpDtDXlU
-//
-//r1TpDtDXlU 
-
-//string* arr = new string[quan];
-//arr[0] = hash.gethash(str, len); // text1 = hash1
-//arr[1] = hash.gethash(newsalt + texthash, len); // hash1 + text2 = hash2
-//for (int i = 2; i < quan; i++)
-//{
-//	finalhash = hash.gethash(arr[i - 1] + arr[i - 2], len);
-//	arr[i] = finalhash;
-//}
-//for (int i = 0; i < quan; i++)
-//{
-//	cout << arr[i] << endl;
-//}
-//cout << finalhash << endl;
-
-/*for (int i = 2; i <= quan; i++)
-{
-finalhash = hash.gethash(arr[i - 1] + arr[i - 2], len);
-arr[i] = finalhash;
-}
-cout << finalhash << endl;*/
