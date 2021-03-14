@@ -3,12 +3,12 @@ The last verson (for now) of my round hash function. This is a rather slow funct
 HeaderHash.h hasn't also changed.  
 
 Example of working:  
-Enter input text, salt, hash lenght and quantity of rounds: string10 salt 10 5  
-TMNXhTdLfdxxwpvYowPdbWWTTtvXVU  
-TMNXhTdLfdxxwpvYowPdbWWTTtvXVUOXNYWfkbfU  
-TMNXhTdLfdxxwpvYowPdbWWTTtvXVUOXNYWfkbfUGZzpLQmlcf  
-TMNXhTdLfdxxwpvYowPdbWWTTtvXVUOXNYWfkbfUGZzpLQmlcfpyMwGtnvVf  
-Final hash (you won't see 4 lines above, just to show how it works) - pyMwGtnvVf  
+>Enter input text, salt, hash lenght and quantity of rounds: string10 salt 10 5  
+>TMNXhTdLfdxxwpvYowPdbWWTTtvXVU  
+>TMNXhTdLfdxxwpvYowPdbWWTTtvXVUOXNYWfkbfU  
+>TMNXhTdLfdxxwpvYowPdbWWTTtvXVUOXNYWfkbfUGZzpLQmlcf  
+>TMNXhTdLfdxxwpvYowPdbWWTTtvXVUOXNYWfkbfUGZzpLQmlcfpyMwGtnvVf  
+>Final hash (you won't see 4 lines above, just to show how it works) - pyMwGtnvVf  
 
 And here is how it works  
 This is how it works:  
