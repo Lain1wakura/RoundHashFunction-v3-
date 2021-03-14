@@ -20,7 +20,7 @@ hash1 + hash2 + hash3 = hash4
 hash1 + hash2 + hash3 + hash4 = hash5  
 ...  
 
-P.S. Example to make sure everything works correctly (using RoundHashFunction-v1-) 
+P.S. Example to make sure everything works correctly (using RoundHashFunction-v1-)  
 TMNXhTdLfdxxwpvYowPdbWWTTtvXVU is TMNXhTdLfd xxwpvYowPd bWWTTtvXVU  
   
 >Enter input text, hash lenght and quantity of rounds: TMNXhTdLfdxxwpvYowPd 10 0  
